@@ -2,7 +2,7 @@ FROM node:16
 
 # Install Python and pip
 RUN apt-get update && apt-get install -y python3 python3-pip
-# Install the Checkov tool.  AV modification
+# Install the Checkov tool.  AV modification number two
 RUN pip3 install --upgrade pip && pip3 install --upgrade setuptools && \
     pip3 install checkov
 
