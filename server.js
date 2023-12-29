@@ -36,7 +36,7 @@ process.argv.forEach(function (val, index, array) {
   }
 });
 
-/* Mount API endpoints */
+/* AV Comment: Mount API endpoints */
 app.use(cart);
 app.use(catalogue);
 app.use(orders);
